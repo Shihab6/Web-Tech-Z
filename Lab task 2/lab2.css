@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+fieldset {
+    border: 2px solid rgb(96, 49, 153);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+legend {
+    color: rgb(243, 240, 247);
+    font-size: 24px;
+    font-weight: bold;
+    background-color:rgb(92, 44, 164);
+    border-radius: 5px;
+    padding: 4px 7px 4px 7px ;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+}
+
+
+td {
+    font-size: 18px;
+}
+
+
+input
+{
+    width: 208px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+form {
+    text-align: center;
+}
+
+
+fieldset {
+    text-align: left;
+}
+
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+
+button{
+    background-color: blue;
+    color: white;
+     border-radius: 10px;
+}
+
+
+button {
+    background-color: rgb(92, 44, 164);
+    border: 1px solid rgb(80, 37, 145);
+}
