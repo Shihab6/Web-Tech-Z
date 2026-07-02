@@ -4,6 +4,7 @@ body {
 }
 
 fieldset {
+    margin 0: auto;
     border: 2px solid rgb(96, 49, 153);
     padding: 20px;
     border-radius: 10px;
