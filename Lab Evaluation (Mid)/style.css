@@ -1,0 +1,31 @@
+.label{
+    display:flex;
+    font-family:Arial,sans-serif;
+    font-weight:bold;
+}
+
+.container{
+    width:500px;
+    margin:50px auto;
+    background-color:hwb(162 62% 22% / 0.325);
+}
+
+legend {
+    color: rgb(243, 240, 247);
+    font-size: 22px;
+    font-weight: bold;
+    background-color:rgb(68, 133, 186);
+    border-radius: 5px;
+  
+}
+
+h6{
+    display:flex;
+    margin-left:50px;
+    color:red;
+}
+
+button{
+    display:block;
+    margin:15px auto;
+}

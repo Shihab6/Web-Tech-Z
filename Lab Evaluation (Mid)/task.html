@@ -1,0 +1,89 @@
+<html>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <fieldset>
+            <legend>Registration Form</legend>
+
+            <form onsubmit="return validationform();">
+
+                <table>
+
+                    <tr>
+                        <td><h6>*</h6></td>
+                        <td class="label">First Name:</td>
+                        <td>
+                            <input type="text" id="fname" />
+                            <p id="fnameError"></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><h6>*</h6></td>
+                        <td class="label">Last Name:</td>
+                        <td>
+                            <input type="text" id="lname" />
+                            <p id="lnameError"></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><h6>*</h6></td>
+                        <td class="label">Student ID:</td>
+                        <td>
+                            <input type="text" id="sid" />
+                            <p id="idError"></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><h6>*</h6></td>
+                        <td class="label">Email:</td>
+                        <td>
+                            <input type="email" id="email" />
+                            <p id="emailError"></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><h6>*</h6></td>
+                        <td class="label">Credit Completed:</td>
+                        <td>
+                            <input type="number" id="credit" />
+                            <p id="creditError"></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><h6>*</h6></td>
+                        <td class="label">Select Department:</td>
+                        <td>
+                            <select id="dept">
+                               
+                                <option value="cse">CSE</option>
+                                <option value="eee">EEE</option>
+                                <option value="ipe">IPE</option>
+
+                            </select>
+
+                            <p id="deptError"></p>
+                        </td>
+                    </tr>
+
+                </table>
+
+                <div id="display"></div>
+
+            </form>
+
+        </fieldset>
+        <button type="button" onclick="return displayinfo()">Submit</button>
+
+    </div>
+
+</body>
+</html>
